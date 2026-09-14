@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glow Five Cosmetics — Maquiagem, Skincare e Cabelos</title>
+    <meta
+      name="description"
+      content="Loja oficial Glow Five Cosmetics: séruns, batons de longa duração, bases de alta cobertura e cronograma capilar. Frete grátis acima de R$ 199 e amostras exclusivas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- ============ BARRA DE AVISOS ============ -->
+    <div class="barra-avisos">
+      <span>Frete grátis acima de R$ 199</span>
+      <span class="esconde-mobile">Ganhe amostras exclusivas</span>
+      <span class="esconde-tablet">Até 3x sem juros</span>
+    </div>
+
+    <!-- ============ CABEÇALHO ============ -->
+    <header class="cabecalho">
+      <div class="container cabecalho-linha">
+        <a href="#topo" class="logo">
+          <span class="logo-icone">✦</span>
+          <span class="logo-texto">Glow Five</span>
+        </a>
+
+        <form class="busca" onsubmit="return false">
+          <input
+            type="search"
+            placeholder="Buscar sérum, batom, cronograma capilar..."
+            aria-label="Buscar produtos"
+          />
+        </form>
+
+        <div class="acoes">
+          <a class="botao-icone" href="#vitrine" aria-label="Lista de desejos">♡</a>
+          <a class="botao-icone esconde-mobile" href="#contato" aria-label="Minha conta">☻</a>
+          <a class="botao-icone" href="#vitrine" aria-label="Sacola de compras">▤</a>
+        </div>
+      </div>
+
+      <div class="busca-mobile">
+        <input type="search" placeholder="Buscar sérum, batom, cronograma..." aria-label="Buscar produtos" />
+      </div>
+
+      <nav class="menu-categorias">
+        <div class="container menu-lista">
+          <a href="#lancamentos">Novidades</a>
+          <a href="#vitrine">Maquiagem</a>
+          <a href="#skincare">Skincare &amp; Pele</a>
+          <a href="#capilar">Cabelos</a>
+          <a href="#vitrine">Kits &amp; Presentes</a>
+          <a href="#ofertas">Ofertas / Sale</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="topo">
+      <!-- ============ BANNER PRINCIPAL ============ -->
+      <section class="hero">
+        <img src="img/banner-editorial.jpg" alt="Coleção Glow Five Cosmetics" class="hero-imagem" />
+        <div class="hero-veu"></div>
+        <div class="container hero-conteudo">
+          <p class="sobretitulo">Coleção Glow</p>
+          <h1>O Seu Novo Glow</h1>
+          <p class="hero-texto">Onde a ciência da cosmetologia encontra a sua essência real.</p>
+          <a href="#vitrine" class="botao-escuro">Comprar agora</a>
+        </div>
+      </section>
+
+      <!-- ============ SELOS DE CONFIANÇA ============ -->
+      <section class="selos">
+        <div class="container selos-grade">
+          <div class="selo">
+            <span class="selo-icone">✽</span>
+            <p class="selo-titulo">Amostras grátis</p>
+            <p class="selo-texto">Em todos os pedidos, sempre.</p>
+          </div>
+          <div class="selo">
+            <span class="selo-icone">➜</span>
+            <p class="selo-titulo">Entrega rápida e segura</p>
+            <p class="selo-texto">Envio em até 24h úteis.</p>
+          </div>
+          <div class="selo">
+            <span class="selo-icone">⟳</span>
+            <p class="selo-titulo">Troca garantida</p>
+            <p class="selo-texto">30 dias para trocar ou devolver.</p>
+          </div>
+          <div class="selo">
+            <span class="selo-icone">✔</span>
+            <p class="selo-titulo">Dermatologicamente testado</p>
+            <p class="selo-texto">Fórmulas seguras e comprovadas.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ VITRINE DE PRODUTOS ============ -->
+      <section id="vitrine" class="vitrine">
+        <span id="lancamentos" class="ancora"></span>
+        <span id="skincare" class="ancora"></span>
+        <span id="capilar" class="ancora"></span>
+
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="sobretitulo">Vitrine Glow Five</p>
+            <h2>Escolhidos para brilhar com você</h2>
+          </div>
+
+          <div class="abas">
+            <a class="aba ativa" href="#vitrine">Os Mais Vendidos</a>
+            <a class="aba" href="#lancamentos">Lançamentos Glow</a>
+            <a class="aba" href="#skincare">Queridinhos de Skincare</a>
+            <a class="aba" href="#capilar">Cronograma Capilar</a>
+          </div>
+
+          <div class="grade-produtos">
+            <!-- PRODUTO -->
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-serum.jpg" alt="Sérum Glow Vitamina C 30ml" loading="lazy" />
+                <span class="etiqueta">Best Seller</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Uniformiza o tom, controla a oleosidade e entrega luminosidade imediata.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Skincare &amp; Pele</p>
+                <h3>Sérum Glow Vitamina C 30ml</h3>
+                <p class="avaliacao">★★★★★ <span>4.9 (1243)</span></p>
+                <p class="preco-antigo">R$ 119,90</p>
+                <p class="preco">R$ 89,90</p>
+                <p class="parcelas">ou 3x de R$ 29,97</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-batom.jpg" alt="Batom Matte Longa Duração 12h" loading="lazy" />
+                <span class="etiqueta">Best Seller</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Cor intensa, textura confortável e fixação impecável o dia todo.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Maquiagem</p>
+                <h3>Batom Matte Longa Duração 12h</h3>
+                <p class="avaliacao">★★★★★ <span>4.8 (862)</span></p>
+                <p class="preco">R$ 59,90</p>
+                <p class="parcelas">ou 3x de R$ 19,97</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-base.jpg" alt="Base Alta Cobertura Glow Skin" loading="lazy" />
+                <span class="etiqueta">Oferta</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Acabamento natural luminoso com cobertura construível e proteção FPS 30.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Maquiagem</p>
+                <h3>Base Alta Cobertura Glow Skin</h3>
+                <p class="avaliacao">★★★★★ <span>4.7 (534)</span></p>
+                <p class="preco-antigo">R$ 159,90</p>
+                <p class="preco">R$ 129,90</p>
+                <p class="parcelas">ou 3x de R$ 43,30</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-iluminador.jpg" alt="Iluminador Radiante Champagne" loading="lazy" />
+                <span class="etiqueta">Novo</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Partículas ultrafinas para um glow molhado, sem efeito glitter.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Maquiagem</p>
+                <h3>Iluminador Radiante Champagne</h3>
+                <p class="avaliacao">★★★★★ <span>4.9 (421)</span></p>
+                <p class="preco">R$ 79,90</p>
+                <p class="parcelas">ou 3x de R$ 26,63</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-cabelo.jpg" alt="Kit Cronograma Capilar Liso Perfeito" loading="lazy" />
+                <span class="etiqueta">Exclusivo</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Hidratação, nutrição e reconstrução em 3 passos para fios lisos e brilhantes.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Cabelos</p>
+                <h3>Kit Cronograma Capilar Liso Perfeito</h3>
+                <p class="avaliacao">★★★★★ <span>4.9 (977)</span></p>
+                <p class="preco-antigo">R$ 239,90</p>
+                <p class="preco">R$ 189,90</p>
+                <p class="parcelas">ou 3x de R$ 63,30</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-cabelo.jpg" alt="Máscara de Nutrição Intensa 300g" loading="lazy" />
+                <span class="etiqueta">Novo</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Repõe lipídios, reduz o frizz e prolonga o efeito liso entre as lavagens.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Cabelos</p>
+                <h3>Máscara de Nutrição Intensa 300g</h3>
+                <p class="avaliacao">★★★★★ <span>4.8 (388)</span></p>
+                <p class="preco">R$ 99,90</p>
+                <p class="parcelas">ou 3x de R$ 33,30</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-hidratante.jpg" alt="Hidratante Facial Oil-Free Niacinamida" loading="lazy" />
+                <span class="coracao">♡</span>
+                <p class="card-previa">Ideal para pele oleosa e com tendência à acne. Toque seco e efeito matte.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Skincare &amp; Pele</p>
+                <h3>Hidratante Facial Oil-Free Niacinamida</h3>
+                <p class="avaliacao">★★★★★ <span>4.7 (611)</span></p>
+                <p class="preco">R$ 74,90</p>
+                <p class="parcelas">ou 3x de R$ 24,97</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-imagem">
+                <img src="img/prod-serum.jpg" alt="Sérum Calmante Ácido Hialurônico" loading="lazy" />
+                <span class="etiqueta">Oferta</span>
+                <span class="coracao">♡</span>
+                <p class="card-previa">Hidratação profunda para pele seca e sensibilizada, com barreira reforçada.</p>
+              </div>
+              <div class="card-corpo">
+                <p class="card-linha">Skincare &amp; Pele</p>
+                <h3>Sérum Calmante Ácido Hialurônico</h3>
+                <p class="avaliacao">★★★★★ <span>4.8 (296)</span></p>
+                <p class="preco-antigo">R$ 114,90</p>
+                <p class="preco">R$ 94,90</p>
+                <p class="parcelas">ou 3x de R$ 31,63</p>
+                <a class="botao-sacola" href="#contato">Adicionar à sacola</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAIXA DE OFERTAS ============ -->
+      <section id="ofertas" class="faixa-oferta">
+        <div class="container">
+          <p class="sobretitulo claro">Glow Sale</p>
+          <h2>Até 30% OFF nos queridinhos da marca</h2>
+          <p class="faixa-texto">
+            Kits capilares, séruns e maquiagem de alta performance com preço especial. Amostras
+            exclusivas em todos os pedidos.
+          </p>
+          <a href="#vitrine" class="botao-claro">Garanta o seu Glow!</a>
+        </div>
+      </section>
+
+      <!-- ============ MISSÃO ============ -->
+      <section id="missao" class="missao">
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="sobretitulo">Nossa Missão</p>
+            <h2>Beleza que vem de dentro para fora</h2>
+            <p class="texto-grande">
+              A Glow Five Cosmetics nasceu para transformar a rotina de beleza em um ritual de
+              empoderamento. Criamos experiências que conectam ciência, autoestima e o brilho
+              único de cada mulher.
+            </p>
+          </div>
+
+          <div class="grade-valores">
+            <div class="valor">
+              <span class="valor-icone">⚗</span>
+              <h3>Ciência Cosmética</h3>
+              <p>
+                Cada fórmula é desenvolvida com ativos eficazes e comprovados, unindo tecnologia e
+                segurança para resultados visíveis.
+              </p>
+            </div>
+            <div class="valor">
+              <span class="valor-icone">♥</span>
+              <h3>Essência Real</h3>
+              <p>
+                Acreditamos que a beleza começa no autocuidado. Nossos produtos realçam o que você
+                já tem de mais bonito.
+              </p>
+            </div>
+            <div class="valor">
+              <span class="valor-icone">✦</span>
+              <h3>Alta Performance</h3>
+              <p>
+                Fixação impecável, texturas luxuosas e acabamento radiante para acompanhar você em
+                todos os momentos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ VÍDEO ============ -->
+      <section id="video" class="secao-video">
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="sobretitulo">O Seu Novo Momento Glow</p>
+            <h2>Assista ao vídeo institucional</h2>
+            <p class="texto-grande">
+              Um convite para viver a experiência Glow Five e descobrir o poder de uma rotina de
+              beleza que realça a sua essência.
+            </p>
+          </div>
+
+          <div class="moldura-video">
+            <img src="img/video-thumbnail.jpg" alt="Prévia do vídeo O Seu Novo Momento Glow" loading="lazy" />
+            <a class="play" href="#video" aria-label="Reproduzir vídeo">▶</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ LISTA VIP ============ -->
+      <section id="contato" class="newsletter">
+        <div class="container">
+          <span class="newsletter-icone">✉</span>
+          <h2>Entre para a lista VIP Glow</h2>
+          <p class="newsletter-texto">
+            Receba lançamentos exclusivos, dicas de beleza e ofertas especiais direto no seu e-mail.
+          </p>
+          <form class="newsletter-form" action="https://formsubmit.co/oi@glowfive.com" method="POST">
+            <input type="email" name="email" placeholder="Digite seu melhor e-mail" required />
+            <button type="submit">Quero brilhar</button>
+          </form>
+          <p class="newsletter-aviso">
+            Ao se inscrever, você aceita receber comunicações da Glow Five Cosmetics.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ RODAPÉ ============ -->
+    <footer class="rodape">
+      <div class="container grade-rodape">
+        <div>
+          <div class="logo">
+            <span class="logo-icone rosa">✦</span>
+            <span class="logo-texto">Glow Five</span>
+          </div>
+          <p class="rodape-sobre">
+            Onde a ciência da cosmetologia encontra a sua essência real. Beleza, ciência e
+            autoestima em cada produto.
+          </p>
+          <div class="redes">
+            <a href="https://instagram.com" aria-label="Instagram">IG</a>
+            <a href="https://facebook.com" aria-label="Facebook">FB</a>
+            <a href="https://youtube.com" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Loja</h4>
+          <ul>
+            <li><a href="#capilar">Cabelos</a></li>
+            <li><a href="#skincare">Pele</a></li>
+            <li><a href="#vitrine">Maquiagem</a></li>
+            <li><a href="#lancamentos">Lançamentos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#missao">Sobre a Glow Five</a></li>
+            <li><a href="#video">Nosso vídeo</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#contato">Trabalhe conosco</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Ajuda</h4>
+          <ul>
+            <li><a href="#contato">Dúvidas frequentes</a></li>
+            <li><a href="#contato">Trocas e devoluções</a></li>
+            <li><a href="#contato">Envio e entrega</a></li>
+            <li><a href="#contato">Política de privacidade</a></li>
+          </ul>
+          <div class="contatos">
+            <a href="mailto:oi@glowfive.com">oi@glowfive.com</a>
+            <a href="https://wa.me/5541998916607" target="_blank" rel="noopener">(41) 99891-6607</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container rodape-base">
+        <p>© 2026 Glow Five Cosmetics. Todos os direitos reservados.</p>
+        <p>Feito com brilho ✨</p>
+      </div>
+    </footer>
+
+    <!-- ============ BOTÃO WHATSAPP ============ -->
+    <a
+      class="whatsapp"
+      href="https://wa.me/5541998916607?text=oii%20tudo%20bem%3F%2C%20vim%20pelo%20site%0A"
+      target="_blank"
+      rel="noopener"
+      aria-label="Fale conosco pelo WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="28" height="28">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+    </a>
+  </body>
+</html>
